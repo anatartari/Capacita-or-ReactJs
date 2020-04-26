@@ -1,0 +1,19 @@
+
+
+
+
+
+    1º - Mostrara como rodar o projeto
+    2º - Yarn Start
+    3º - Explicar as pastas
+    4º - Pagina "App" como function (dar um hellor word de quebra)
+    5º - Como criar um componente
+    6º - usar props nesse componente 
+    7º - Criar outro componente e explciar state 
+    8º - criar formulario (nao mostrar a logica)
+    9º - Routes
+            Criar outra Pagina, perguntar como acessar aquela pagina
+            Criar outro arquivo de rotas
+    10º - Hook e logica
+    11º - Material ui
+    12º - Desafio
