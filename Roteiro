@@ -21,5 +21,6 @@
     8º - criar formulario  -> CLASS COM STATE
                 Desvantagem do State -> Sempre que alteramos/atualizamos o State, o componente é redesenhado na tela (render)
     10º - Hook e logica
+        ->Escrever os componentes de forma menos verbosa e perfomatica, remove alguns componentes 
     11º - Material ui
     12º - Desafio
