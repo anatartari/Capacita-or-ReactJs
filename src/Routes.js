@@ -1,15 +1,19 @@
 import React from "react";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-//SCREENS
-import HomePage from './Views/HomePage'
-import PageTwo from './Views/Pagina2'
+import HomePage from './pages/PrimeiraPagina'
+import Segunda from './pages/SegundaPagina'
 
-const Routes = () => (
+const Routes =() => (
     <BrowserRouter>
         <Switch>
-            <Route extract path="/" component={HomePage} />
-            <Route extrac path="/paginadois" component={PageTwo} />
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/SegundaPagina" component={Segunda} />
         </Switch>
     </BrowserRouter>
 )

@@ -1,5 +1,16 @@
 import React, { Component } from 'react'
 
+
+{/**
+    1º - cRIAR UM FORMULARIO DE BOA
+    2º - FAZER E EXPLICAR O constructor
+    3º - CRIAR O STATE
+            NAO ESQUECER DE FALAR QUE OS INPUTS PEGAM OS EVENTOS E NAO O VALOR
+    4º - onSubmit
+    5º - Logica
+*/}
+
+
 export default class Formulario extends Component {
     constructor(props) {
         super(props);
@@ -20,7 +31,8 @@ export default class Formulario extends Component {
         ${this.state.nome} 
         ${this.state.idade}
         ${this.state.email}
-        ${this.state.mensagem}`
+        ${this.state.mensagem}
+        `
         )
     }
     render() {

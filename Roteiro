@@ -3,17 +3,23 @@
 
 
 
-    1º - Mostrara como rodar o projeto
+    1º - Explicar as pastas
+                explicar o index.js e o index.html ->
+                O react utiliza esse arquivo index.js para inserir todo o conteúdo
+                JSX do App.js no index.html, tornando possível que esse template
+                seja exibido no navegador.
+                -> JSX = é uma extensão de sintaxe para JavaScript
+
     2º - Yarn Start
-    3º - Explicar as pastas
-    4º - Pagina "App" como function (dar um hellor word de quebra)
-    5º - Como criar um componente
+    3º - Configurar rotas
+    4º - Pagina "App" como function (dar um hellor word de quebra) 
+                Style -> css ou style={{}}
+    5º - Como criar um componente -> Utilizamos os componentes para que possamos reutilizá-los em outros pontos do código!
+                explicar com class
     6º - usar props nesse componente 
     7º - Criar outro componente e explciar state 
-    8º - criar formulario (nao mostrar a logica)
-    9º - Routes
-            Criar outra Pagina, perguntar como acessar aquela pagina
-            Criar outro arquivo de rotas
+    8º - criar formulario  -> CLASS COM STATE
+                Desvantagem do State -> Sempre que alteramos/atualizamos o State, o componente é redesenhado na tela (render)
     10º - Hook e logica
     11º - Material ui
     12º - Desafio
