@@ -1,20 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Formulario from '../components/formulario'
+import Formulario from "../Components/Formulario";
 
+export default function Sudanda() {
+  return (
+    <>
+      <h1 style={{ textAlign: "center" }}>ESTOU NA SEGUNDA PAGINA !</h1>
 
-export default function Sudanda () {
+      <Formulario style={{ textAlign: "center" }} />
 
-    return(
-        <>
-        <h1 style={{textAlign: 'center'}}>ESTOU NA SEGUNDA PAGINA !</h1>
-
-        <Formulario style={{textAlign: 'center'}}/>
-        
-        <Link to="/hooks">
-            VAMOS PARA OS HOOKS
-        </Link>
-        </>
-    )
+      <Link to="/hooks">VAMOS PARA OS HOOKS</Link>
+    </>
+  );
 }
